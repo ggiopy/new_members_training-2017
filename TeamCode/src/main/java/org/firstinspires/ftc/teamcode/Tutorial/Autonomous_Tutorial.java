@@ -29,9 +29,15 @@ public class Autonomous_Tutorial extends LinearOpMode {
         waitForStart();
 
         //The robot's power is 0.5, it will go 48 inches forward, with a 3 second timeout before going to its next move
-        encoderDrive(0.5,48,48,3);
+        //encoderDrive(0.5,48,48,3);
 
-        encoderDrive(0.7,30,0,4);
+        //encoderDrive(0.7,30,0,4);
+
+        encoderDrive(1,48,48,.9001);
+
+        encoderDrive(1,-10,10,.9001);
+
+        encoderDrive(1,-25,-25,.9001);
 
         //The robot will drive forward for 4 seconds
 
@@ -91,3 +97,4 @@ public class Autonomous_Tutorial extends LinearOpMode {
     }
 
 }
+
